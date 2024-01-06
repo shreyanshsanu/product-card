@@ -1,0 +1,88 @@
+.project
+{
+    background-color: antiquewhite;
+    height:100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.image
+{
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    background-image:url(./images/image-product-desktop.jpg) ;
+  
+  
+
+}
+.write
+{
+    background-color: white;
+    height: 400px;
+    width: 300px;  
+     
+}
+#heading
+{
+    color: gray;
+    position: relative ;
+    left: 20px;
+}
+#p1
+{
+    color: gray;
+    position: relative;
+    left: 20px;
+}
+#inn
+{
+    position: relative;
+    left: 20px;
+}
+.rupees
+{
+    font-weight: 900;
+    font-size: 40px;
+    color: green;
+    position: relative;
+    left: 20px;
+}
+.rupees2
+{
+    text-decoration: line-through;
+    color: gray;
+    position: relative;
+    left: 200px;
+    top: -74px;
+}
+.button1
+{
+    background-color: green;
+    color:black;
+    position: relative;
+    left: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+@media(min-width:0px) and (max-width:375px)
+{
+    .project
+    {
+        display: flex;
+        flex-direction:column ;
+        height:100%;
+        width: 100%;
+    }
+    .image
+    {
+        width: 90%;
+    }
+    .write
+    {
+        height: 90%;
+        width: 90%;
+    }
+}
